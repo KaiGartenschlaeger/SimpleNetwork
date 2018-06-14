@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleNetwork.BinaryMessageReader" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="BinaryMessageReader" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="reader" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAQiAAEAgCCAAQgAAAAIAAAUAAAAAAwAAQAAA=</HashCode>
+      <FileName>BinaryMessageReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="SimpleNetwork.BinaryMessageWriter" BaseTypeListCollapsed="true">
+    <Position X="8" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="BinaryMessageWriter" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="memStream" Hidden="true" />
+      <Field Name="writer" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAIAACChAACAAAgAAAAAAQABAAAIwBSACAQQAAAA=</HashCode>
+      <FileName>BinaryMessageWriter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="SimpleNetwork.NetworkMessage">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="buffer" Hidden="true" />
+      <Field Name="client" Hidden="true" />
+      <Field Name="endPoint" Hidden="true" />
+      <Field Name="id" Hidden="true" />
+      <Method Name="NetworkMessage" Hidden="true" />
+      <Field Name="parameter" Hidden="true" />
+      <Field Name="receiveDataTime" Hidden="true" />
+      <Field Name="type" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAAgAEAAAAAAAgARAAAAEQBABAAAQgQ=</HashCode>
+      <FileName>NetworkMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleNetwork.NetworkPeer">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="enableDebuging" Hidden="true" />
+      <Field Name="encoding" Hidden="true" />
+      <Field Name="identifiy" Hidden="true" />
+      <Field Name="ipEndPoint" Hidden="true" />
+      <Field Name="mainSocket" Hidden="true" />
+      <Field Name="messageLock" Hidden="true" />
+      <Field Name="messages" Hidden="true" />
+      <Field Name="thread" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SimpleNetwork.NetworkPeer.MessageDataType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NetworkPeer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="SimpleNetwork.NetworkPeer.NetworkMessageOptions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NetworkPeer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IGAggAAAAICIIAEBAMAAAAAAiBCIAIEBAAIAYgACAAQ=</HashCode>
+      <FileName>NetworkPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleNetwork.NetworkSocket">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="NetworkSocket" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAAgAAAAAAQAAAAAAAAAAAAAAAAQAAQAAAQAEAAAA=</HashCode>
+      <FileName>NetworkSocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleNetwork.TCPClient">
+    <Position X="3" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="ClientThread" Hidden="true" />
+      <Method Name="ConnectCallback" Hidden="true" />
+      <Method Name="SendData" Hidden="true" />
+      <Method Name="TCPClient" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAIAAQAAAAEAAAIEAAAAAAAAAIAEAAAAAAAA=</HashCode>
+      <FileName>TCPClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleNetwork.TCPServer">
+    <Position X="3" Y="3.25" Width="2" />
+    <Members>
+      <Method Name="ClientThread" Hidden="true" />
+      <Method Name="SendData" Hidden="true" />
+      <Method Name="ServerThread" Hidden="true" />
+      <Method Name="TCPServer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAIAAAIEAAAAAAAAAAgAAAIAEAAAAAIAg=</HashCode>
+      <FileName>TCPServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SimpleNetwork.NetworkMessageType">
+    <Position X="10.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQIAAAAAAAAAAAAAEAAAYAABAIgAACAI=</HashCode>
+      <FileName>NetworkMessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
