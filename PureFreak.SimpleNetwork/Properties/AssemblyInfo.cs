@@ -6,11 +6,11 @@ using System.Resources;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("Simple Network")]
-[assembly: AssemblyDescription("Dient zur einfachen Einrichtung und Verwendung eines Netzwerkes.")]
+[assembly: AssemblyTitle("PureFreak.SimpleNetwork")]
+[assembly: AssemblyDescription("A small library to manage network connections via TCP/IP.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("PureSoft")]
-[assembly: AssemblyProduct("Simple Network")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("PureFreak.SimpleNetwork")]
 [assembly: AssemblyCopyright("Copyright ©  2011, Kai Gartenschläger")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

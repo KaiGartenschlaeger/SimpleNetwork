@@ -1,7 +1,7 @@
 ﻿using System.Net.Sockets;
 using System;
 
-namespace SimpleNetwork
+namespace PureFreak.SimpleNetwork
 {
     /// <summary>
     /// Stellt einen erweiterten Netzwerksocket dar.

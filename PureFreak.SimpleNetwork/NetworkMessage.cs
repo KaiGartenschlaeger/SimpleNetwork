@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace SimpleNetwork
+namespace PureFreak.SimpleNetwork
 {
     /// <summary>
     /// Stellt eine Netzwerknachricht dar.

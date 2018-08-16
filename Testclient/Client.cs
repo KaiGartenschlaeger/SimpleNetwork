@@ -1,7 +1,7 @@
-﻿using System;
+﻿using PureFreak.SimpleNetwork;
+using System;
 using System.Net;
 using System.Threading;
-using SimpleNetwork;
 
 namespace Testclient
 {
@@ -146,7 +146,7 @@ namespace Testclient
                     case NetworkMessageType.Connected:
                         Console.WriteLine("Verbindung erfolgreich aufgebaut");
                         break;
-                    
+
                     case NetworkMessageType.ConnectionFailed:
                         Console.WriteLine("Verbindung fehlgeschlagen");
                         break;

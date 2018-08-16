@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace SimpleNetwork
+namespace PureFreak.SimpleNetwork
 {
     /// <summary>
     /// Dient zum erstellen einer Binärnachricht.

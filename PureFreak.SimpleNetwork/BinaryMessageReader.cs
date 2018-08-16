@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace SimpleNetwork
+namespace PureFreak.SimpleNetwork
 {
     /// <summary>
     /// Dient zum auslesen von Binärnachrichten.

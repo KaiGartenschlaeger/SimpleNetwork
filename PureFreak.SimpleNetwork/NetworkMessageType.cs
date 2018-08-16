@@ -1,4 +1,4 @@
-﻿namespace SimpleNetwork
+﻿namespace PureFreak.SimpleNetwork
 {
     /// <summary>
     /// Stellt den Typ der Nachricht dar.

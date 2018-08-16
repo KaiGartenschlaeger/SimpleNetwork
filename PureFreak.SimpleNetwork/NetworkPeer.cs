@@ -7,7 +7,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 
-namespace SimpleNetwork
+namespace PureFreak.SimpleNetwork
 {
     /// <summary>
     /// Stellt die Basisklasse für Socketbasierte TCP Komponenten dar.

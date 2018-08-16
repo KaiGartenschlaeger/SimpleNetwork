@@ -17,7 +17,6 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
     <TargetFrameworkProfile />
-
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,9 +55,9 @@
     <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimpleNetwork\SimpleNetwork.csproj">
+    <ProjectReference Include="..\PureFreak.SimpleNetwork\PureFreak.SimpleNetwork.csproj">
       <Project>{87DF4249-D462-405F-B9F3-F228C87482BC}</Project>
-      <Name>SimpleNetwork</Name>
+      <Name>PureFreak.SimpleNetwork</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

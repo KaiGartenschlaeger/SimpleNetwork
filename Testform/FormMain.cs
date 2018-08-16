@@ -1,8 +1,8 @@
-﻿using System;
+﻿using PureFreak.SimpleNetwork;
+using System;
 using System.Net;
 using System.Threading;
 using System.Windows.Forms;
-using SimpleNetwork;
 
 namespace ConsoleWrapper
 {

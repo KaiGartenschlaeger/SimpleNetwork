@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<package >
+
+  <metadata>
+    <id>PureFreak.SimpleNetwork</id>
+    <version>1.0.0</version>
+    <title>PureFreak.SimpleNetwork</title>
+    <description>A small library to manage network connections via TCP/IP.</description>
+    <authors>Kai Gartenschläger</authors>
+
+    <projectUrl>https://github.com/PureFreak/SimpleNetwork</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/PureFreak/SimpleNetwork/master/LICENSE</licenseUrl>
+    <copyright>Copyright 2012</copyright>
+
+    <releaseNotes>Initial version</releaseNotes>
+
+    <!--<tags></tags>-->
+  </metadata>
+
+  <files>
+    <file src="bin\Release\PureFreak.SimpleNetwork.dll" target="lib\Net35" />
+    <file src="bin\Release\PureFreak.SimpleNetwork.xml" target="lib\Net35" />
+    <file src="bin\Release\PureFreak.SimpleNetwork.pdb" target="lib\Net35" />
+  </files>
+
+</package>
