@@ -1,2 +1,5 @@
 # SimpleNetwork
-A tcpip network library.
+A small TCP/IP network library.
+
+# How to use
+todo
